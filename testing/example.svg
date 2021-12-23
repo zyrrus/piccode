@@ -1,52 +1,99 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="165mm"
-   height="115mm"
-   viewBox="0 0 165 115"
-   version="1.1"
-   id="code"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  />
-  <rect
-     style="fill:#222222;stroke:#222222;stroke-width:10;stroke-linejoin:round;stroke-miterlimit:24.2;stroke-dasharray:none;stroke-opacity:1"
-     id="background"
-     width="155"
-     height="105"
-     x="5"
-     y="5"
-     ry="0" />
-  <g
-     id="buttons"
-     transform="translate(7.5, 7.5)">
-    <circle
-       style="fill:#ff605c;stroke-width:0.221599"
-       id="exit"
-       cx="0"
-       cy="0"
-       r="2.5" />
-    <circle
-       style="fill:#ffbd44;stroke-width:0.221599"
-       id="restore"
-       cx="7.5"
-       cy="0"
-       r="2.5" />
-    <circle
-       style="fill:#00ca4e;stroke-width:0.221599"
-       id="minimize"
-       cx="15"
-       cy="0"
-       r="2.5" />
-  </g>
-  <text
-     id="textbox"
-     style="font-style:normal;font-weight:normal;font-size:4.7625px;line-height:1.25;font-family:monospace;white-space:pre;fill:#dedede;fill-opacity:1;stroke:none;"
-     x="5"
-     y="17.5"><tspan
-         id="line0"
-         x="5"
-         dy="0em">my MOMMY is so sussy baka pants and shid</tspan><tspan
-         id="line1"
-         x="5"
-         dy="1em">my MOMMY is so sussy baka pants and shid</tspan>
+<svg width="223mm" height="115mm" viewBox="0 0 223 115" version="1.1" id="code" xmlns="http://www.w3.org/2000/svg"
+    xmlns:svg="http://www.w3.org/2000/svg">
+    <rect style="fill:#222222" id="background" width="223" height="115" x="0" y="0" ry="5" />
+    <g id="buttons" transform="translate(7.5, 7.5)">
+        <circle style="fill:#ff605c" id="close" cx="0" cy="0" r="2.5" />
+        <circle style="fill:#ffbd44" id="restore" cx="7.5" cy="0" r="2.5" />
+        <circle style="fill:#00ca4e" id="minimize" cx="15" cy="0" r="2.5" />
+    </g>
+    <text id="textbox"
+        style="font-style:normal;font-weight:normal;font-size:5px;font-family:monospace;white-space:pre;fill:#dedede;fill-opacity:1;stroke:none;"
+        x="0" y="15">
+        <tspan id="line0" x="5" dy="5">
+            <span class="hljs-string">&#x27;&#x27;
+        </tspan>
+        <span class="hljs-string">&#x27;
+            </tspan>
+            </tspan>
+            <tspan id="line1" x="5" dy="5">
+                <span class="hljs-type">This
+            </tspan>
+            <span class="hljs-keyword">is
+                </tspan>
+                <span class="hljs-keyword">some
+                    </tspan> generic python code
+                    </tspan>
+                    <tspan id="line2" x="5" dy="5">encode it and throw it into the api
+                        <span class="hljs-selector-tag">to
+                    </tspan> generate
+                    <span class="hljs-selector-tag">a
+                        </tspan> prettier
+                        <span class="hljs-selector-tag">code
+                            </tspan> snippet
+                            </tspan>
+                            <tspan id="line3" x="5" dy="5">
+                                <span class="hljs-string">&#x27;&#x27;
+                            </tspan>
+                            <span class="hljs-string">&#x27;
+                                </tspan>
+                                </tspan>
+                                <tspan id="line4" x="5" dy="5">
+                                    <span class="hljs-function">
+                                        <span class="hljs-keyword">def
+                                </tspan>
+                                <span class="hljs-title">main
+                                    </tspan>
+                                    <span class="hljs-params">(token)
+                                        </tspan>
+                                        </tspan>
+                                        <span class="hljs-symbol">:
+                                            </tspan>
+                                            </tspan>
+                                            <tspan id="line5" x="5" dy="5">
+                                                <span class="hljs-comment"># Init Spotipy
+                                            </tspan>
+                                            </tspan>
+                                            <tspan id="line6" x="5" dy="5">
+                                                <span class="hljs-attr">sp
+                                            </tspan> = spotipy.Spotify(auth=token)
+                                            </tspan>
+                                            <tspan id="line7" x="5" dy="5" visibility="hidden">.</tspan>
+                                            <tspan id="line8" x="5" dy="5">
+                                                <span class="hljs-comment"># Print intro and get title
+                                            </tspan>
+                                            </tspan>
+                                            <tspan id="line9" x="5" dy="5">
+                                                <span class="hljs-attr">title
+                                            </tspan> = intro()
+                                            </tspan>
+                                            <tspan id="line10" x="5" dy="5" visibility="hidden">.</tspan>
+                                            <tspan id="line11" x="5" dy="5">
+                                                <span class="hljs-comment"># Create playlist
+                                            </tspan>
+                                            </tspan>
+                                            <tspan id="line12" x="5" dy="5">
+                                                <span class="hljs-attr">playlist
+                                            </tspan> = Playlist(sp, title)
+                                            </tspan>
+                                            <tspan id="line13" x="5" dy="5">
+                                                <span class="hljs-built_in">get_songs
+                                            </tspan>(playlist)
+                                            </tspan>
+                                            <tspan id="line14" x="5" dy="5" visibility="hidden">.</tspan>
+                                            <tspan id="line15" x="5" dy="5">
+                                                <span class="hljs-comment"># Create the playlist on Spotify
+                                            </tspan>
+                                            </tspan>
+                                            <tspan id="line16" x="5" dy="5"> playlist
+                                                <span class="hljs-selector-class">.create_playlist
+                                            </tspan>()
+                                            </tspan>
+                                            <tspan id="line17" x="5" dy="5">
+                                                <span class="hljs-built_in">print
+                                            </tspan>(
+                                            <span class="hljs-string">&quot;Done&quot;
+                                                </tspan>)
+                                                </tspan>
+                                                <tspan id="line18" x="5" dy="5" visibility="hidden">.</tspan>
     </text>
 </svg>
