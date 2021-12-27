@@ -1,3 +1,3 @@
 # picode
 
-Simple API to generate customizable SVG code snippets
+Simple Express API to generate customizable SVG code snippets
